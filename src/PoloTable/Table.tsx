@@ -1,6 +1,6 @@
 import React, {useCallback, useEffect, useRef, useState} from 'react';
 import {FlatList, StyleSheet, Text, View, Animated} from 'react-native';
-import ScreenContainer from './ScreenContainer';
+import ScreenContainer from '../ScreenContainer';
 
 type ServerItem = {
   baseVolume: string;
